@@ -1,24 +1,25 @@
-# Arc Grey Theme
+# Arc Deep Dark Theme
 
-Arc Grey is a flat theme with transparent elements for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Unity, Budgie, Pantheon, XFCE, Mate, etc.
+Arc Deep Dark is a flat theme with transparent elements for GTK 3 and Gnome-Shell which supports GTK 3 based desktop environments like Gnome.
 
-##### You can download the built themes [here](https://github.com/eti0/arc-grey-theme/tree/master/builds)
-#### These builds are not always up to date !  
-#### I strongly recommend cloning the repository and building the theme since it'll have the most recent commits.
+### Download the built theme
+You can find  the version tested in GTK 3 with Gnome 3.20 [here](https://github.com/argorar/Arc-Deep-Dark/releases)
 
-### Arc Grey is available in three variants
 
-##### Arc Grey
+### Why Deep Dark?
+For me a deep dark color is more elegant and aesthetic, can be a perfect complement to the type comfy desktops. For some it may not seem like a big change but it makes the difference.
 
-![A screenshot of the Arc Grey theme](http://i.imgur.com/oi7y9BP.jpg)
-
-##### Arc-Darker Grey
-
-![A screenshot of the Arc-Darker Grey theme](http://i.imgur.com/4BatNqe.jpg)
-
-##### Arc-Dark Grey
+##### Arc Dark Grey [Before]
 
 ![A screenshot of the Arc-Dark Grey theme](http://i.imgur.com/TnnCLKw.jpg)
+
+##### Arc Deep Dark [After]
+
+![A screenshot of the Arc Grey theme](img/preview.png)
+
+
+
+
 
 ### Requirements
 
@@ -70,7 +71,7 @@ Install the theme with the following commands
 
 If you want to install the latest version from git, clone the repository with
 
-    git clone https://github.com/eti0/arc-grey-theme --depth 1 && cd arc-grey-theme
+    git clone https://github.com/argorar/Arc-Deep-Dark --depth 1 && cd arc-grey-theme
 
 **2. Build and install the theme**
 
@@ -120,16 +121,12 @@ Now open the Plank preferences window by executing `plank --preferences` from a 
 If you have Ubuntu with a newer GTK/Gnome version than the one included by default (i.e Ubuntu 14.04 with GTK 3.14 or Ubuntu 15.04 with GTK 3.16, etc.) the prebuilt packages won't work properly and you have to install the theme manually as described above.
 This is also true for other distros with a different GTK/Gnome version than the one included by default
 
---
 
-If you get artifacts like black or invisible backgrounds under Unity, disable overlay scrollbars with
-
-    gsettings set com.canonical.desktop.interface scrollbar-mode normal
 
 ### Bugs
-If you find a bug you can [open a ticket](https://github.com/eti0/arc-grey-theme/issues)
+If you find a bug you can [open a ticket](https://github.com/argorar/Arc-Deep-Dark/issues)
 
 
 ### Full Preview
-![A full screenshot of the Arc theme](http://i.imgur.com/VkhI2d5.png)
-<sub>Screenshot Details: [Icons](https://github.com/eti0/arc-limon-icon-theme) | [Wallpaper](https://u.teknik.io/9S8IA.jpg) | Font: Noto Sans Regular</sub>
+![A full screenshot of the Arc theme](img/screen.png)
+<sub>Screenshot Details: [Wallpaper](img/wall.jpg) </sub>
